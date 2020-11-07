@@ -1,9 +1,7 @@
-# StoreApp - The Store Inventory App
+# The Store Keeper App
 
 ![GitHub](https://img.shields.io/github/license/kaushiknsanji/StoreApp)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kaushiknsanji/StoreApp)  ![GitHub repo size](https://img.shields.io/github/repo-size/kaushiknsanji/StoreApp)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/StoreApp)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/StoreApp/total) ![GitHub search hit counter](https://img.shields.io/github/search/kaushiknsanji/StoreApp/Inventory%20App) ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
-
-This App has been developed as part of the **Udacity Android Basics Nanodegree Course** for the Exercise Project **"Inventory App"**. This App allows a Store to keep track of the inventory of its Products across the listed Suppliers of Products, along with their Price and Pictures of the Product.
 
 ---
 
@@ -363,20 +361,3 @@ The Main Activity displays a Tab Layout with three tabs -
 
 ---
 
-## License
-
-```
-Copyright 2018 Kaushik N. Sanji
-
-Licensed under the Apache License, Version 2.0 (the "License"); 
-you may not use this file except in compliance with the License. 
-You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-   
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
