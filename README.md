@@ -1,10 +1,4 @@
 # The Store Keeper App
-
-![GitHub](https://img.shields.io/github/license/store_keeper/StoreApp)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/store_keeper/StoreApp)  ![GitHub repo size](https://img.shields.io/github/repo-size/store_keeper/StoreApp)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/store_keeper/StoreApp)  ![GitHub All Releases](https://img.shields.io/github/downloads/store_keeper/StoreApp/total) ![GitHub search hit counter](https://img.shields.io/github/search/store_keeper/StoreApp/Inventory%20App) ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
-
----
-
 ## App Compatibility
 
 Android device running with Android OS 4.0.4 (API Level 15) or above. Best experienced on Android Nougat 7.1 and above. Designed for Phones and NOT for Tablets.
