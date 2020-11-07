@@ -1,0 +1,514 @@
+[
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_main_tab_supplier_default.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_main_tab_supplier_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_all_remove_circle.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_all_remove_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_main_tab_supplier_accent.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_main_tab_supplier_accent.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_main_refresh.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_main_refresh.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_supplier_config_contact.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\item_supplier_config_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_all_close.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_all_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_sales_config_product_desc_box.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\shape_sales_config_product_desc_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_about_gradient_background.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\shape_about_gradient_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_product_config_category_spinner.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\item_product_config_category_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sales_config_increase_qty_0.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_sales_config_increase_qty_0.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sales_config_increase_qty_2.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_sales_config_increase_qty_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_sales_config_item_supplier_qty_edit_box.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\shape_sales_config_item_supplier_qty_edit_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_about_udacity.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_about_udacity.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_all_product_default.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_all_product_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_layer_all_select_circle.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\layer_all_select_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sales_procurement_send_mail.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_sales_procurement_send_mail.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_state_main_tab_cart.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\state_main_tab_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_sales_procurement.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\fragment_sales_procurement.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_product_image.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\activity_product_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_main_supplier_page_number.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_main_supplier_page_number.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sales_config_decrease_qty_2.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_sales_config_decrease_qty_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sales_config_edit.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_sales_config_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_sales_config.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\fragment_sales_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_all_delete.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_all_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_state_sales_config_decrease_qty.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\state_sales_config_decrease_qty.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_product_config_edit_box.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\shape_product_config_edit_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sales_config_decrease_qty_0.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_sales_config_decrease_qty_0.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_all_fab_add.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_all_fab_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_main_tab_cart_default.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_main_tab_cart_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_all_select_circle.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_all_select_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_main_sales_page_number.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_main_sales_page_number.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\font_libre_barcode_128_text_regular.ttf.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\font\\libre_barcode_128_text_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dialog_image_picker_camera.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_dialog_image_picker_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sales_config.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\activity_sales_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sales_procurement.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\activity_sales_procurement.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_about_linkedin.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_about_linkedin.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_state_supplier_config_add_btn_bg.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\state_supplier_config_add_btn_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_sales_procurement_phone_contact.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\item_sales_procurement_phone_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_main_tab_product_material_default.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_main_tab_product_material_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_product_config_category_spinner_dropdown.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\item_product_config_category_spinner_dropdown.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_layer_item_product_image_delete_overlay.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\layer_item_product_image_delete_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\font_caudex.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\font\\caudex.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_sales_procurement.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\menu\\menu_sales_procurement.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_product_config_add_photo.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_product_config_add_photo.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sales_list_item_ship.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_sales_list_item_ship.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_fragment_product_config.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\menu\\menu_fragment_product_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_product_image.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\fragment_product_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_main_content_page.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\layout_main_content_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_all_image_backdrop_scrim_top.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\shape_all_image_backdrop_scrim_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_product_list.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\item_product_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sales_config_increase_qty_1.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_sales_config_increase_qty_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_fragment_product_image.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\menu\\menu_fragment_product_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_product_image_picker.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\dialog_product_image_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\font_merriweather_bold.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\font\\merriweather_bold.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_state_main_tab_supplier.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\state_main_tab_supplier.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_fragment_sales_config.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\menu\\menu_fragment_sales_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_supplier_product_picker.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\fragment_supplier_product_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_progress_circle.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\dialog_progress_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_fragment_supplier_product_picker.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\menu\\menu_fragment_supplier_product_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_supplier_product_picker.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\item_supplier_product_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_layer_all_remove_circle.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\layer_all_remove_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_layer_sales_config_edit.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\layer_sales_config_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\xml_file_provider_paths.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\xml\\file_provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_product_image_select.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_product_image_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_product_config.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\fragment_product_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_state_product_config_add_btn_bg.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\state_product_config_add_btn_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_product_config_attr.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\item_product_config_attr.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_all_store.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_all_store.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_about.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_product_image.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\item_product_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_supplier_config_product.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\item_supplier_config_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_layer_product_config_add_photo.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\layer_product_config_add_photo.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_supplier_product_picker.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\activity_supplier_product_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_state_all_select_circle.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\state_all_select_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sales_list_item_delete.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_sales_list_item_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_sales_config_product_attrs_table_cell_value.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\layout_sales_config_product_attrs_table_cell_value.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_about_github.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_about_github.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_supplier_config_edit_box.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\shape_supplier_config_edit_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_all_phone.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_all_phone.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_main_tab.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\layout_main_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_supplier_config.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\activity_supplier_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dialog_image_picker_gallery.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_dialog_image_picker_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_supplier_list.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\item_supplier_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_fragment_supplier_config.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\menu\\menu_fragment_supplier_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sales_config_item_supplier_procure.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_sales_config_item_supplier_procure.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_all_save.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_all_save.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_all_empty_circle.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\shape_all_empty_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_item_product_image_background_border_default.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\shape_item_product_image_background_border_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_main_product_page_number.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_main_product_page_number.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_main_tab_product_material_accent.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_main_tab_product_material_accent.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_product_config.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\activity_product_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_sales_config_product_attrs_table_bg_even_row.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\shape_sales_config_product_attrs_table_bg_even_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_supplier_config.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\fragment_supplier_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_dialog_product_image_picker.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout-land\\dialog_product_image_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_item_product_image_background_delete_border.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\shape_item_product_image_background_delete_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\menu_cab_menu_fragment_product_image.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\menu\\cab_menu_fragment_product_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sales_config_decrease_qty_1.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_sales_config_decrease_qty_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_item_product_image_background_select_border.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\shape_item_product_image_background_select_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_sales_config_product_attrs_table_bg_odd_row.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\shape_sales_config_product_attrs_table_bg_odd_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_all_email.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_all_email.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_state_sales_config_increase_qty.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\state_sales_config_increase_qty.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_main_tab_cart_accent.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_main_tab_cart_accent.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_sales_list.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\item_sales_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_all_product_item.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\layout_all_product_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_sales_config_supplier.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\item_sales_config_supplier.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_sales_config_product_attrs_table_cell_name.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\layout\\layout_sales_config_product_attrs_table_cell_name.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_item_product_image_delete.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\ic_item_product_image_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_state_main_tab_product_material.xml.flat",
+        "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\drawable\\state_main_tab_product_material.xml"
+    }
+]

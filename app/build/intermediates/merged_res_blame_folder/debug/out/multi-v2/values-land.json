@@ -1,0 +1,55 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\rajat\\.gradle\\caches\\transforms-2\\files-2.1\\0bcacdb0eab7d88c78a799c9b83fe8a2\\design-27.1.1\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "1410",
+                        "endLines": "24",
+                        "endColumns": "12",
+                        "endOffsets": "1587"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\rajat\\.gradle\\caches\\transforms-2\\files-2.1\\fb73cd95735f60ea8817b5519842e60e\\appcompat-v7-27.1.1\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "from": {
+                        "startLines": "39,20,56,61,45,40,32,31,33,26,51,66,34,25,50",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1809,853,2731,2981,2122,1883,1495,1429,1559,1162,2483,3173,1618,1093,2393",
+                        "endColumns": "72,74,72,77,75,67,62,64,57,86,85,63,58,67,88",
+                        "endOffsets": "1877,923,2799,3054,2193,1946,1553,1489,1612,1244,2564,3232,1672,1156,2477"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "328,401,476,549,627,703,771,834,899,957,1044,1130,1194,1253,1321",
+                        "endColumns": "72,74,72,77,75,67,62,64,57,86,85,63,58,67,88",
+                        "endOffsets": "396,471,544,622,698,766,829,894,952,1039,1125,1189,1248,1316,1405"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v19\\values-v19.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\values-v19\\styles.xml",
+                    "from": {
+                        "startLines": "19,28",
+                        "startColumns": "4,4",
+                        "startOffsets": "728,1190",
+                        "endLines": "25,30",
+                        "endColumns": "12,12",
+                        "endOffsets": "1129,1299"
+                    },
+                    "to": {
+                        "startLines": "2,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,455",
+                        "endLines": "8,11",
+                        "endColumns": "12,12",
+                        "endOffsets": "450,562"
+                    }
+                }
+            ]
+        }
+    ]
+}

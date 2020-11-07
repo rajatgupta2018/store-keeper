@@ -1,0 +1,258 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:44:9-52:20
+	android:grantUriPermissions
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:48:13-47
+	android:authorities
+		INJECTED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:46:13-64
+	android:exported
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:45:13-67
+manifest
+ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:17:1-132:12
+INJECTED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:17:1-132:12
+INJECTED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:17:1-132:12
+INJECTED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:17:1-132:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\0bcacdb0eab7d88c78a799c9b83fe8a2\design-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\fb73cd95735f60ea8817b5519842e60e\appcompat-v7-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\6a878a6a72ba57aba47ad322ec974edf\cardview-v7-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\5b7674459d98898815b858ca36d6d379\recyclerview-v7-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\59f1e2c06c518d55c9d86b469f38d906\exifinterface-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\730778db586674a895bff375855045ee\support-v4-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\e1d89028329a343a255fe4f595387f42\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.stetho:stetho:1.5.0] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\3deda9ef489387a321aa64afaeadbd0b\stetho-1.5.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\f8403b8a6a0886985494885c15e8aac5\support-fragment-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\bc0754ec59c12e2720bea1fac4ecb132\animated-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\6f78845ca1ca3de9d467d4c1bdd74a15\support-core-ui-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\896ca3056d389aaca8c7457779a6bac4\support-core-utils-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\736555858f56cac7f8303881cf0e3e2c\support-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\8796e0cb0b367df4f639c1ecd3e8dec2\transition-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\32c85c9e9ec08d56d41417fd81fe6f97\support-media-compat-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\f4a07ecc459cf61de0df685cb53b6d59\support-compat-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\90fc2c6319561173608a820b963e1421\livedata-core-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\b4cc76471c981cc44ee29bf4109833e6\viewmodel-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\a9db6ba4d56d8d15f07eaf77a110ab30\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\45f40d503071a894280280ea2da15b05\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:17:1-132:12
+INJECTED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:17:1-132:12
+INJECTED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:17:1-132:12
+	package
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:19:5-49
+		INJECTED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:17:1-132:12
+		INJECTED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:18:5-51
+	android:versionCode
+		INJECTED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:17:1-132:12
+		INJECTED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:17:11-69
+uses-feature#android.hardware.camera
+ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:22:5-24:35
+	android:required
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:24:9-32
+	android:name
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:23:9-47
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:27:5-29:38
+	android:maxSdkVersion
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:29:9-35
+	android:name
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:28:9-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:30:5-32:38
+	android:maxSdkVersion
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:32:9-35
+	android:name
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:31:9-65
+application
+ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:34:5-130:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\e1d89028329a343a255fe4f595387f42\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\e1d89028329a343a255fe4f595387f42\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\3deda9ef489387a321aa64afaeadbd0b\stetho-1.5.0\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\3deda9ef489387a321aa64afaeadbd0b\stetho-1.5.0\AndroidManifest.xml:11:5-20
+	android:supportsRtl
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:40:9-35
+	android:label
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:38:9-41
+	android:roundIcon
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:39:9-54
+	android:icon
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:37:9-43
+	android:allowBackup
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:36:9-35
+	android:theme
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:41:9-40
+	android:name
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:35:9-44
+provider#com.example.kaushiknsanji.storeapp.data.local.StoreContentProvider
+ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:55:9-58:40
+	android:authorities
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:57:13-78
+	android:exported
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:58:13-37
+	android:name
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:56:13-60
+activity#com.example.kaushiknsanji.storeapp.ui.MainActivity
+ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:61:9-69:20
+	android:theme
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:63:13-49
+	android:name
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:62:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:64:13-68:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:65:17-69
+	android:name
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:65:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:67:17-77
+	android:name
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:67:27-74
+activity#com.example.kaushiknsanji.storeapp.ui.products.config.ProductConfigActivity
+ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:72:9-76:55
+	android:label
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:74:13-69
+	android:windowSoftInputMode
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:76:13-52
+	android:theme
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:75:13-44
+	android:name
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:73:13-69
+activity#com.example.kaushiknsanji.storeapp.ui.products.image.ProductImageActivity
+ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:79:9-90:20
+	android:parentActivityName
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:82:13-83
+	android:label
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:81:13-56
+	tools:targetApi
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:84:13-41
+	android:theme
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:83:13-57
+	android:name
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:80:13-67
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:87:13-89:111
+	android:value
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:89:17-108
+	android:name
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:88:17-63
+activity#com.example.kaushiknsanji.storeapp.ui.suppliers.config.SupplierConfigActivity
+ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:93:9-97:55
+	android:label
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:95:13-71
+	android:windowSoftInputMode
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:97:13-52
+	android:theme
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:96:13-44
+	android:name
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:94:13-71
+activity#com.example.kaushiknsanji.storeapp.ui.suppliers.product.SupplierProductPickerActivity
+ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:100:9-104:55
+	android:label
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:102:13-66
+	android:windowSoftInputMode
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:104:13-52
+	android:theme
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:103:13-44
+	android:name
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:101:13-79
+activity#com.example.kaushiknsanji.storeapp.ui.inventory.config.SalesConfigActivity
+ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:107:9-111:55
+	android:label
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:109:13-66
+	android:windowSoftInputMode
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:111:13-52
+	android:theme
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:110:13-44
+	android:name
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:108:13-68
+activity#com.example.kaushiknsanji.storeapp.ui.inventory.procure.SalesProcurementActivity
+ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:114:9-118:55
+	android:label
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:116:13-60
+	android:windowSoftInputMode
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:118:13-52
+	android:theme
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:117:13-44
+	android:name
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:115:13-74
+activity#com.example.kaushiknsanji.storeapp.ui.about.AboutActivity
+ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:121:9-123:47
+	android:theme
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:123:13-44
+	android:name
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:122:13-51
+meta-data#preloaded_fonts
+ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:126:9-128:57
+	android:resource
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:128:13-54
+	android:name
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:127:13-43
+uses-sdk
+INJECTED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\0bcacdb0eab7d88c78a799c9b83fe8a2\design-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\0bcacdb0eab7d88c78a799c9b83fe8a2\design-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\fb73cd95735f60ea8817b5519842e60e\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\fb73cd95735f60ea8817b5519842e60e\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\6a878a6a72ba57aba47ad322ec974edf\cardview-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\6a878a6a72ba57aba47ad322ec974edf\cardview-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\5b7674459d98898815b858ca36d6d379\recyclerview-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\5b7674459d98898815b858ca36d6d379\recyclerview-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\59f1e2c06c518d55c9d86b469f38d906\exifinterface-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\59f1e2c06c518d55c9d86b469f38d906\exifinterface-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\730778db586674a895bff375855045ee\support-v4-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\730778db586674a895bff375855045ee\support-v4-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\e1d89028329a343a255fe4f595387f42\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\e1d89028329a343a255fe4f595387f42\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\3deda9ef489387a321aa64afaeadbd0b\stetho-1.5.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\3deda9ef489387a321aa64afaeadbd0b\stetho-1.5.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\f8403b8a6a0886985494885c15e8aac5\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\f8403b8a6a0886985494885c15e8aac5\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\bc0754ec59c12e2720bea1fac4ecb132\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\bc0754ec59c12e2720bea1fac4ecb132\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\6f78845ca1ca3de9d467d4c1bdd74a15\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\6f78845ca1ca3de9d467d4c1bdd74a15\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\896ca3056d389aaca8c7457779a6bac4\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\896ca3056d389aaca8c7457779a6bac4\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\736555858f56cac7f8303881cf0e3e2c\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\736555858f56cac7f8303881cf0e3e2c\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\8796e0cb0b367df4f639c1ecd3e8dec2\transition-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\8796e0cb0b367df4f639c1ecd3e8dec2\transition-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\32c85c9e9ec08d56d41417fd81fe6f97\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\32c85c9e9ec08d56d41417fd81fe6f97\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\f4a07ecc459cf61de0df685cb53b6d59\support-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\f4a07ecc459cf61de0df685cb53b6d59\support-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\90fc2c6319561173608a820b963e1421\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\90fc2c6319561173608a820b963e1421\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\b4cc76471c981cc44ee29bf4109833e6\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\b4cc76471c981cc44ee29bf4109833e6\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\a9db6ba4d56d8d15f07eaf77a110ab30\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\a9db6ba4d56d8d15f07eaf77a110ab30\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\45f40d503071a894280280ea2da15b05\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\rajat\.gradle\caches\transforms-2\files-2.1\45f40d503071a894280280ea2da15b05\runtime-1.1.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:49:13-51:63
+	android:resource
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:51:17-60
+	android:name
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:50:17-67
