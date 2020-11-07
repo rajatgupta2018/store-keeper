@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 2018 Kaushik N. Sanji
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~    http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Makes the content flow behind the status bar : START -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <!-- Makes the content flow behind the status bar : END -->
+    </style>
+
+    <!-- Style for the Main Activity of the App -->
+    <style name="AppTheme.Main">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+</resources>
