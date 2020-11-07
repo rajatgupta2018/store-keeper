@@ -326,7 +326,11 @@ The Main Activity displays a Tab Layout with three tabs -
 
 ## Branches in this Repository
 
-StoreApp/tree/release_v1.0)**
+* **[udacity](https://github.com/kaushiknsanji/StoreApp/tree/udacity)**
+	* Contains the code submitted for review, along with review suggestions incorporated.
+	* Updated Gradle version and applied valid lint corrections.
+	* Added Copyright info.
+* **[release_v1.0](https://github.com/kaushiknsanji/StoreApp/tree/release_v1.0)**
 	* Used `ConstrainedWidth` to enforce `WRAP_CONTENT` constraints on Views and `MaxLines` on `TextViews` to optimize the UI - ([commit](https://github.com/kaushiknsanji/StoreApp/commit/92c56ab8292c33e2ad1d65fc07b18e3ac04750a1)) and ([commit](https://github.com/kaushiknsanji/StoreApp/commit/2b7ea78d51540c6060f16a5e14630b0f4b819409)).
 	* Saving Product Images to the database and file storage, only when there is an update/change - ([commit](https://github.com/kaushiknsanji/StoreApp/commit/d4b641e2edc1a7bee464bf3c61c6b88fdfd94fe7)).
 	* Displaying unsaved changes dialog only when there is an update/change - ([commit](https://github.com/kaushiknsanji/StoreApp/commit/b4604735d1707cbda95c6685a0b2942759ef097b)).
