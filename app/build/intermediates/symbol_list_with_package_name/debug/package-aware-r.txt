@@ -1232,7 +1232,7 @@ id icon
 id icon_group
 id ifRoom
 id image
-id image_about_app_icon
+id imageView
 id image_content_page_step_number
 id image_item_product_photo
 id image_item_product_photo_delete_overlay
@@ -1274,6 +1274,7 @@ id middle
 id mini
 id multiply
 id navigation_header_container
+id nestedScrollView
 id never
 id none
 id normal
@@ -1354,7 +1355,7 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
-id text_about_content_desc
+id textView
 id text_content_page_empty_list
 id text_input_password_toggle
 id text_main_tab_title

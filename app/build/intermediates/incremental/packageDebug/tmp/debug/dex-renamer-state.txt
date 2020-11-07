@@ -1,4 +1,4 @@
-#Sat Nov 07 20:48:29 IST 2020
+#Sat Nov 07 22:11:54 IST 2020
 base.0=C\:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

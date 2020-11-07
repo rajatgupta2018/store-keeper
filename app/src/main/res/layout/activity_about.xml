@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.store_keeper.storeapp.com.example.store_keeper.storekeeper.ui.about.AboutActivity">
+    tools:context="com.example.store_keeper.store_keeper.ui.about.AboutActivity">
 
     <!-- For the Custom Toolbar -->
     <android.support.design.widget.AppBarLayout
@@ -29,6 +29,7 @@
 
     <!-- Content of the Activity -->
     <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/shape_about_gradient_background"
@@ -43,22 +44,23 @@
             <android.support.v7.widget.CardView
                 style="@style/AboutInfoCardStyle"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="597dp">
 
                 <android.support.constraint.ConstraintLayout
                     android:layout_width="369dp"
-                    android:layout_height="wrap_content">
+                    android:layout_height="575dp">
 
                     <!-- For the App Icon -->
 
                     <!-- For the Title Text in the content -->
 
                     <ImageView
-                        android:id="@+id/image_about_app_icon"
+                        android:id="@+id/imageView"
                         style="@style/ConstraintTopCenterHorizontalStyle"
                         android:layout_width="@dimen/match_constraint_0dp"
                         android:layout_height="@dimen/match_constraint_0dp"
-                        android:layout_marginTop="40dp"
+                        android:layout_marginTop="300dp"
+                        android:text="This app was Created by \n Rajat"
                         app:layout_constraintDimensionRatio="1.6"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.0"
@@ -67,22 +69,16 @@
                         app:srcCompat="@drawable/ic_all_store" />
 
                     <TextView
-                        android:id="@+id/text_about_content_desc"
-                        style="@style/ConstraintCenterHorizontalStyle"
-                        android:layout_width="@dimen/match_constraint_0dp"
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/card_about_internal_content_margin"
+                        android:text="This app was developed by\nRajat Gupta\nand\nHarshita Joshi\nNIT Bhopal"
+                        android:textSize="27sp"
                         android:gravity="center"
-                        android:text="Stock Keeper \n This app was developed by \nRajat Gupta\nand\nHarshita Joshi\nNIT Bhopal\n"
-                        android:textColor="@android:color/black"
-                        android:textSize="22sp"
-                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintBottom_toTopOf="@+id/imageView"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.0"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/image_about_app_icon"
-                        app:layout_constraintVertical_bias="0.0"
-                        app:layout_constraintVertical_chainStyle="spread_inside" />
+                        app:layout_constraintTop_toTopOf="parent" />
 
 
                     <!-- For the introductory text -->
@@ -93,6 +89,9 @@
                 </android.support.constraint.ConstraintLayout>
 
             </android.support.v7.widget.CardView>
+
+
+
 
         </FrameLayout>
 

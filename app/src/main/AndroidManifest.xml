@@ -86,7 +86,7 @@
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.store_keeper.storeapp.com.example.store_keeper.storekeeper.ui.products.config.ProductConfigActivity" />
+                android:value="com.example.store_keeper.store_keeper.ui.products.config.ProductConfigActivity" />
         </activity>
 
         <!-- The Supplier Config Activity that allows to configure a Supplier -->

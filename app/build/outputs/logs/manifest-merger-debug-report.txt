@@ -139,9 +139,9 @@ ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidMani
 	android:name
 		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:80:13-104
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:87:13-89:147
+ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:87:13-89:114
 	android:value
-		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:89:17-144
+		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:89:17-111
 	android:name
 		ADDED from C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:88:17-63
 activity#com.example.store_keeper.store_keeper.ui.suppliers.config.SupplierConfigActivity
