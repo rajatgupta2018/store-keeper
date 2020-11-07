@@ -1,7 +1,7 @@
 # The Store Keeper App
 
-![GitHub](https://img.shields.io/github/license/kaushiknsanji/StoreApp)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kaushiknsanji/StoreApp)  ![GitHub repo size](https://img.shields.io/github/repo-size/kaushiknsanji/StoreApp)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/StoreApp)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/StoreApp/total) ![GitHub search hit counter](https://img.shields.io/github/search/kaushiknsanji/StoreApp/Inventory%20App) ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
+![GitHub](https://img.shields.io/github/license/store_keeper/StoreApp)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/store_keeper/StoreApp)  ![GitHub repo size](https://img.shields.io/github/repo-size/store_keeper/StoreApp)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/store_keeper/StoreApp)  ![GitHub All Releases](https://img.shields.io/github/downloads/store_keeper/StoreApp/total) ![GitHub search hit counter](https://img.shields.io/github/search/store_keeper/StoreApp/Inventory%20App) ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
 
 ---
 
@@ -42,12 +42,12 @@ Android device running with Android OS 4.0.4 (API Level 15) or above. Best exper
 * Presenting information from Files and SQLite databases to users.
 * Designing layouts with `TextInputLayout` and `TextInputEditText` to capture User input, validating the captured information to display the required error, and updating the database with the information.
 * Creating intents to other apps such as the File Picker App for selecting images and the Image Capture App for taking pictures, using stored information.
-	* Capturing Images is accomplished using `ACTION_IMAGE_CAPTURE` Intent, and processing the Image for storage is done using a custom [ImageStorageUtility](/app/src/main/java/com/example/kaushiknsanji/storeapp/utils/ImageStorageUtility.java) in a Disk thread provided by [AppExecutors](/app/src/main/java/com/example/kaushiknsanji/storeapp/utils/AppExecutors.java).
+	* Capturing Images is accomplished using `ACTION_IMAGE_CAPTURE` Intent, and processing the Image for storage is done using a custom [ImageStorageUtility](/app/src/main/java/com/example/store_keeper/storeapp/utils/ImageStorageUtility.java) in a Disk thread provided by [AppExecutors](/app/src/main/java/com/example/store_keeper/storeapp/utils/AppExecutors.java).
 	* Selecting Images is accomplished using `ACTION_GET_CONTENT`/`ACTION_OPEN_DOCUMENT` Intent, based on the Android system version.
-* Promoting the separation of concerns using the [MVP Architecture with Content Providers](https://github.com/googlesamples/android-architecture/tree/deprecated-todo-mvp-contentproviders/) along with Repository pattern for Datasource that includes local files and database storage. Dependency injection is accomplished using a static [InjectorUtility](/app/src/main/java/com/example/kaushiknsanji/storeapp/utils/InjectorUtility.java).
+* Promoting the separation of concerns using the [MVP Architecture with Content Providers](https://github.com/googlesamples/android-architecture/tree/deprecated-todo-mvp-contentproviders/) along with Repository pattern for Datasource that includes local files and database storage. Dependency injection is accomplished using a static [InjectorUtility](/app/src/main/java/com/example/store_keeper/storeapp/utils/InjectorUtility.java).
 * Designing layouts using `CoordinatorLayout` and `ConstraintLayout`.
 * Designing Item Views using `CardView`.
-* Loading of Images using a custom Headless [Fragment](/app/src/main/java/com/example/kaushiknsanji/storeapp/workers/ImageDownloaderFragment.java) through an [AsyncTaskLoader](/app/src/main/java/com/example/kaushiknsanji/storeapp/workers/ImageDownloader.java) and caching recently loaded images using [BitmapImageCache](/app/src/main/java/com/example/kaushiknsanji/storeapp/cache/BitmapImageCache.java) that internally uses `android.util.LruCache`.
+* Loading of Images using a custom Headless [Fragment](/app/src/main/java/com/example/store_keeper/storeapp/workers/ImageDownloaderFragment.java) through an [AsyncTaskLoader](/app/src/main/java/com/example/store_keeper/storeapp/workers/ImageDownloader.java) and caching recently loaded images using [BitmapImageCache](/app/src/main/java/com/example/store_keeper/storeapp/cache/BitmapImageCache.java) that internally uses `android.util.LruCache`.
 * Live Debugging using [Stetho](https://facebook.github.io/stetho/) to see and validate the changes following any CRUD operation during the development process, in order to ensure that the operations are working as intended.
 * Presenting Product Attributes information using a `TableLayout` with its data populated dynamically.
 
@@ -74,7 +74,7 @@ The Main Activity displays a Tab Layout with three tabs -
 	* Shows a list of Products configured with their Sales information.
 	* Allows to quick sell a quantity of any Product shown.
 
-### Products Tab - [ProductListFragment](/app/src/main/java/com/example/kaushiknsanji/storeapp/ui/products/ProductListFragment.java)
+### Products Tab - [ProductListFragment](/app/src/main/java/com/example/store_keeper/storeapp/ui/products/ProductListFragment.java)
 
 |PORTRAIT|LANDSCAPE|
 |---|---|
@@ -91,7 +91,7 @@ The Main Activity displays a Tab Layout with three tabs -
 	* ProductConfig Activity/Fragment for a Product can also be launched by just clicking on the entire Product Card.
 * The screen also has a FAB **"+"** button, which launches the ProductConfig Activity/Fragment to configure a New Product into the database.
 	
-### ProductConfig [Activity](/app/src/main/java/com/example/kaushiknsanji/storeapp/ui/products/config/ProductConfigActivity.java)/[Fragment](/app/src/main/java/com/example/kaushiknsanji/storeapp/ui/products/config/ProductConfigActivityFragment.java)
+### ProductConfig [Activity](/app/src/main/java/com/example/store_keeper/storeapp/ui/products/config/ProductConfigActivity.java)/[Fragment](/app/src/main/java/com/example/store_keeper/storeapp/ui/products/config/ProductConfigActivityFragment.java)
 
 |Add Product|Edit Product|
 |---|---|
@@ -119,7 +119,7 @@ The Main Activity displays a Tab Layout with three tabs -
 	* If there is an Additional Attribute entry with NO value entered in both parts of Name-Value pair, then that entry will be removed silently on **"Save"** of the Product details entered.
 * This screen also shows the Default Image selected for the Product. Images can be added using the edit button present on it.
 
-### ProductImage [Activity](/app/src/main/java/com/example/kaushiknsanji/storeapp/ui/products/image/ProductImageActivity.java)/[Fragment](/app/src/main/java/com/example/kaushiknsanji/storeapp/ui/products/image/ProductImageActivityFragment.java)
+### ProductImage [Activity](/app/src/main/java/com/example/store_keeper/storeapp/ui/products/image/ProductImageActivity.java)/[Fragment](/app/src/main/java/com/example/store_keeper/storeapp/ui/products/image/ProductImageActivityFragment.java)
 
 |No Images|With Images|Images selected for Delete|
 |---|---|---|
@@ -139,7 +139,7 @@ The Main Activity displays a Tab Layout with three tabs -
 * For a New Product entry, the Images/URIs persisted for the Product in this screen will be deleted silently in case the user decides to discard the New Product entry details.
 * For an Existing Product entry, the Images/URIs persisted for the Product will be deleted when the Product is deleted in the ProductConfig Activity/Fragment.
 
-### ProductImage Picker [DialogFragment](/app/src/main/java/com/example/kaushiknsanji/storeapp/ui/products/image/ProductImagePickerDialogFragment.java)
+### ProductImage Picker [DialogFragment](/app/src/main/java/com/example/store_keeper/storeapp/ui/products/image/ProductImagePickerDialogFragment.java)
 
 |PORTRAIT|LANDSCAPE|
 |---|---|
@@ -152,7 +152,7 @@ The Main Activity displays a Tab Layout with three tabs -
 	2. **Pick from Gallery**
 		* Launches the File Picker for Images with multi-select option enabled.
 
-### Suppliers Tab - [SupplierListFragment](/app/src/main/java/com/example/kaushiknsanji/storeapp/ui/suppliers/SupplierListFragment.java)
+### Suppliers Tab - [SupplierListFragment](/app/src/main/java/com/example/store_keeper/storeapp/ui/suppliers/SupplierListFragment.java)
 
 <img src="https://user-images.githubusercontent.com/26028981/49726466-1c99c900-fc94-11e8-854d-add11fdb9b6d.png" width="40%" />
 
@@ -169,7 +169,7 @@ The Main Activity displays a Tab Layout with three tabs -
 	* SupplierConfig Activity/Fragment for a Supplier can also be launched by just clicking on the entire Supplier Card.
 * The screen also has a FAB **"+"** button, which launches the SupplierConfig Activity/Fragment to configure a New Supplier into the database.
 
-### SupplierConfig [Activity](/app/src/main/java/com/example/kaushiknsanji/storeapp/ui/suppliers/config/SupplierConfigActivity.java)/[Fragment](/app/src/main/java/com/example/kaushiknsanji/storeapp/ui/suppliers/config/SupplierConfigActivityFragment.java)
+### SupplierConfig [Activity](/app/src/main/java/com/example/store_keeper/storeapp/ui/suppliers/config/SupplierConfigActivity.java)/[Fragment](/app/src/main/java/com/example/store_keeper/storeapp/ui/suppliers/config/SupplierConfigActivityFragment.java)
 
 |Add Supplier|Supplier with Product Picked|Edit Supplier|
 |---|---|---|
@@ -200,7 +200,7 @@ The Main Activity displays a Tab Layout with three tabs -
 	* Products that are already picked will not appear for picking again in the SupplierProductPicker Activity/Fragment. This avoids duplications.
 	* When a registered Product is swiped/removed from the list, the Supplier-Product link will be removed along with their Selling Price and availability if any. The Product entry will NOT be deleted.
 	
-### SupplierProductPicker [Activity](/app/src/main/java/com/example/kaushiknsanji/storeapp/ui/suppliers/product/SupplierProductPickerActivity.java)/[Fragment](/app/src/main/java/com/example/kaushiknsanji/storeapp/ui/suppliers/product/SupplierProductPickerActivityFragment.java)
+### SupplierProductPicker [Activity](/app/src/main/java/com/example/store_keeper/storeapp/ui/suppliers/product/SupplierProductPickerActivity.java)/[Fragment](/app/src/main/java/com/example/store_keeper/storeapp/ui/suppliers/product/SupplierProductPickerActivityFragment.java)
 
 |Picker List|Picker Multi Select|
 |---|---|
@@ -218,7 +218,7 @@ The Main Activity displays a Tab Layout with three tabs -
 * Allows to pick multiple products at once.
 * Provides a SearchView which can filter the list by Product Name/SKU/Category.
 
-### Sales Tab - [SalesListFragment](/app/src/main/java/com/example/kaushiknsanji/storeapp/ui/inventory/SalesListFragment.java)
+### Sales Tab - [SalesListFragment](/app/src/main/java/com/example/store_keeper/storeapp/ui/inventory/SalesListFragment.java)
 
 |List With Inventory|List with Out-Of-Stock|
 |---|---|
@@ -240,7 +240,7 @@ The Main Activity displays a Tab Layout with three tabs -
 	* SalesConfig Activity/Fragment can be launched by just clicking on the Product Card. 
 * There is no FAB button for this screen, as this gets populated based on the configurations of Products and its Suppliers.
 
-### SalesConfig [Activity](/app/src/main/java/com/example/kaushiknsanji/storeapp/ui/inventory/config/SalesConfigActivity.java)/[Fragment](/app/src/main/java/com/example/kaushiknsanji/storeapp/ui/inventory/config/SalesConfigActivityFragment.java)
+### SalesConfig [Activity](/app/src/main/java/com/example/store_keeper/storeapp/ui/inventory/config/SalesConfigActivity.java)/[Fragment](/app/src/main/java/com/example/store_keeper/storeapp/ui/inventory/config/SalesConfigActivityFragment.java)
 
 |Product Details|Product Availability|Product's Suppliers|
 |---|---|---|
@@ -255,7 +255,7 @@ The Main Activity displays a Tab Layout with three tabs -
 * Deleting the Product removes the Product details and its relationship data from the database.
 * Swiping/removing the listed Supplier, will delete the Product-Supplier link along with their Selling Price and availability if any. The Supplier entry will NOT be deleted.
 
-### SalesProcurement [Activity](/app/src/main/java/com/example/kaushiknsanji/storeapp/ui/inventory/procure/SalesProcurementActivity.java)/[Fragment](/app/src/main/java/com/example/kaushiknsanji/storeapp/ui/inventory/procure/SalesProcurementActivityFragment.java)
+### SalesProcurement [Activity](/app/src/main/java/com/example/store_keeper/storeapp/ui/inventory/procure/SalesProcurementActivity.java)/[Fragment](/app/src/main/java/com/example/store_keeper/storeapp/ui/inventory/procure/SalesProcurementActivityFragment.java)
 
 |Procurement Options|Email Sample for Procurement via Email|
 |---|---|
@@ -269,7 +269,7 @@ The Main Activity displays a Tab Layout with three tabs -
 	* The current availability at the Supplier.
 	* The required quantity mentioned. If the quantity is not mentioned, then 0 quantity will be passed by default.
 
-### About [Activity](/app/src/main/java/com/example/kaushiknsanji/storeapp/ui/about/AboutActivity.java)	
+### About [Activity](/app/src/main/java/com/example/store_keeper/storeapp/ui/about/AboutActivity.java)	
 
 <img src="https://user-images.githubusercontent.com/26028981/49726802-d4c77180-fc94-11e8-99ac-802d8dcc3457.png" width="40%" />   <img src="https://user-images.githubusercontent.com/26028981/49726805-d5600800-fc94-11e8-92bc-f121352cded6.png" width="40%" />
 	
@@ -286,13 +286,13 @@ The Main Activity displays a Tab Layout with three tabs -
 
 * App follows the MVP pattern as described in the Google Samples for [MVP with Content Providers](https://github.com/googlesamples/android-architecture/tree/deprecated-todo-mvp-contentproviders/). 
 * Activities and DialogFragments that do not need any access to Repository are excluded from the MVP architecture.
-	* [MainActivity](/app/src/main/java/com/example/kaushiknsanji/storeapp/ui/MainActivity.java) needs to manage the basic ViewPager and its adapter fragments.
-	* [AboutActivity](/app/src/main/java/com/example/kaushiknsanji/storeapp/ui/about/AboutActivity.java) is just a plain Activity and has no specific function.
-	* [ProgressDialogFragment](/app/src/main/java/com/example/kaushiknsanji/storeapp/ui/common/ProgressDialogFragment.java) and [ProductImagePickerDialogFragment](/app/src/main/java/com/example/kaushiknsanji/storeapp/ui/products/image/ProductImagePickerDialogFragment.java) do not need access to Repository or have any major functions that needs to be carried out in a Presenter.
-* Access to the Repository is governed by the [StoreRepository](/app/src/main/java/com/example/kaushiknsanji/storeapp/data/StoreRepository.java) which interfaces with two other repositories - 
-	1. **Local Database Storage** - [StoreLocalRepository](/app/src/main/java/com/example/kaushiknsanji/storeapp/data/local/StoreLocalRepository.java)
+	* [MainActivity](/app/src/main/java/com/example/store_keeper/storeapp/ui/MainActivity.java) needs to manage the basic ViewPager and its adapter fragments.
+	* [AboutActivity](/app/src/main/java/com/example/store_keeper/storeapp/ui/about/AboutActivity.java) is just a plain Activity and has no specific function.
+	* [ProgressDialogFragment](/app/src/main/java/com/example/store_keeper/storeapp/ui/common/ProgressDialogFragment.java) and [ProductImagePickerDialogFragment](/app/src/main/java/com/example/store_keeper/storeapp/ui/products/image/ProductImagePickerDialogFragment.java) do not need access to Repository or have any major functions that needs to be carried out in a Presenter.
+* Access to the Repository is governed by the [StoreRepository](/app/src/main/java/com/example/store_keeper/storeapp/data/StoreRepository.java) which interfaces with two other repositories - 
+	1. **Local Database Storage** - [StoreLocalRepository](/app/src/main/java/com/example/store_keeper/storeapp/data/local/StoreLocalRepository.java)
 		* For the Database management that stores and manages the Products, Suppliers and their Sales information.
-	2. **Local File Storage** - [StoreFileRepository](/app/src/main/java/com/example/kaushiknsanji/storeapp/data/local/StoreFileRepository.java)
+	2. **Local File Storage** - [StoreFileRepository](/app/src/main/java/com/example/store_keeper/storeapp/data/local/StoreFileRepository.java)
 		* For the Products' Images storage and their management.
 
 ### Database Schema
@@ -319,30 +319,30 @@ The Main Activity displays a Tab Layout with three tabs -
 	* **"item_supplier_inventory"** Table.
 		* Stores the Supplier's available to sell quantity for a Product.
 		
-* The Queries executed for retrieving the required information in each Fragment/Activity are provided by the Utility class [QueryArgsUtility](/app/src/main/java/com/example/kaushiknsanji/storeapp/data/local/utils/QueryArgsUtility.java). Each of the queries executed are documented in this class.
-* For more information on the Database Schema, read the [Store Database Schema Wiki](https://github.com/kaushiknsanji/StoreApp/wiki/Database-Setup).
+* The Queries executed for retrieving the required information in each Fragment/Activity are provided by the Utility class [QueryArgsUtility](/app/src/main/java/com/example/store_keeper/storeapp/data/local/utils/QueryArgsUtility.java). Each of the queries executed are documented in this class.
+* For more information on the Database Schema, read the [Store Database Schema Wiki](https://github.com/store_keeper/StoreApp/wiki/Database-Setup).
 
 ---
 
 ## Branches in this Repository
 
-* **[udacity](https://github.com/kaushiknsanji/StoreApp/tree/udacity)**
+* **[udacity](https://github.com/store_keeper/StoreApp/tree/udacity)**
 	* Contains the code submitted for review, along with review suggestions incorporated.
 	* Updated Gradle version and applied valid lint corrections.
 	* Added Copyright info.
-* **[release_v1.0](https://github.com/kaushiknsanji/StoreApp/tree/release_v1.0)**
-	* Used `ConstrainedWidth` to enforce `WRAP_CONTENT` constraints on Views and `MaxLines` on `TextViews` to optimize the UI - ([commit](https://github.com/kaushiknsanji/StoreApp/commit/92c56ab8292c33e2ad1d65fc07b18e3ac04750a1)) and ([commit](https://github.com/kaushiknsanji/StoreApp/commit/2b7ea78d51540c6060f16a5e14630b0f4b819409)).
-	* Saving Product Images to the database and file storage, only when there is an update/change - ([commit](https://github.com/kaushiknsanji/StoreApp/commit/d4b641e2edc1a7bee464bf3c61c6b88fdfd94fe7)).
-	* Displaying unsaved changes dialog only when there is an update/change - ([commit](https://github.com/kaushiknsanji/StoreApp/commit/b4604735d1707cbda95c6685a0b2942759ef097b)).
-	* Deleting Product Images when the Product is deleted from the database, either from the Product/Sales Configuration screens and the Product/Sales List screens - ([commit](https://github.com/kaushiknsanji/StoreApp/commit/0333f83d8c2c4b40103abfe7667eb3a05724c8fd)).
-	* Releasing orientation lock when a dialog is canceled on touch from outside - ([commit](https://github.com/kaushiknsanji/StoreApp/commit/530d4e84ec6b43903b8ab47eb0d99082565e6b46)).
-	* Enabled logging for debuggable build types only, through the use of custom [Logger](https://github.com/kaushiknsanji/StoreApp/blob/release_v1.0/app/src/main/java/com/example/kaushiknsanji/storeapp/utils/Logger.java) which is a wrapper to the `android.util.Log` - ([commit](https://github.com/kaushiknsanji/StoreApp/commit/1f9526e81b9233f4ba190b5c9ac68b9855e96186)).
-	* Pressing home/up button or back key on an unsaved New Config entry, displays the unsaved changes dialog - ([commit](https://github.com/kaushiknsanji/StoreApp/commit/e0eef9383ce53f2bbb3628152c14068fbf369608)).
-	* Using Product Attributes copy for detecting any changes later in the Product configuration - ([commit](https://github.com/kaushiknsanji/StoreApp/commit/3508b06cb7bc4b9ca44525f080a05fd4b55be0cb)).
-	* Null Pointer check when a Supplier Contact is deleted while another Supplier Contact is being validated and recorded - ([commit](https://github.com/kaushiknsanji/StoreApp/commit/8ace8adfca5948df7dd225b4de4104bba1901fb4)).
-	* Passing 0 as the required quantity to procure when no quantity is provided while procuring by Email - ([commit](https://github.com/kaushiknsanji/StoreApp/commit/a28a4085d1d541c8f1896297dde11e200455b0da)).
-	* Invalidating/reloading Item decorations when new data item is added/updated/removed in the Product/Supplier/Sales lists - ([commit](https://github.com/kaushiknsanji/StoreApp/commit/47df67d1792dce0b552f832893dd77087effce4f)).
-	* Configured an Activity Alias to launch the `MainActivity` - ([commit](https://github.com/kaushiknsanji/StoreApp/commit/e8f6bcd34a095c907f415a27d098dc03ec0f0500)).
+* **[release_v1.0](https://github.com/store_keeper/StoreApp/tree/release_v1.0)**
+	* Used `ConstrainedWidth` to enforce `WRAP_CONTENT` constraints on Views and `MaxLines` on `TextViews` to optimize the UI - ([commit](https://github.com/store_keeper/StoreApp/commit/92c56ab8292c33e2ad1d65fc07b18e3ac04750a1)) and ([commit](https://github.com/store_keeper/StoreApp/commit/2b7ea78d51540c6060f16a5e14630b0f4b819409)).
+	* Saving Product Images to the database and file storage, only when there is an update/change - ([commit](https://github.com/store_keeper/StoreApp/commit/d4b641e2edc1a7bee464bf3c61c6b88fdfd94fe7)).
+	* Displaying unsaved changes dialog only when there is an update/change - ([commit](https://github.com/store_keeper/StoreApp/commit/b4604735d1707cbda95c6685a0b2942759ef097b)).
+	* Deleting Product Images when the Product is deleted from the database, either from the Product/Sales Configuration screens and the Product/Sales List screens - ([commit](https://github.com/store_keeper/StoreApp/commit/0333f83d8c2c4b40103abfe7667eb3a05724c8fd)).
+	* Releasing orientation lock when a dialog is canceled on touch from outside - ([commit](https://github.com/store_keeper/StoreApp/commit/530d4e84ec6b43903b8ab47eb0d99082565e6b46)).
+	* Enabled logging for debuggable build types only, through the use of custom [Logger](https://github.com/store_keeper/StoreApp/blob/release_v1.0/app/src/main/java/com/example/store_keeper/storeapp/utils/Logger.java) which is a wrapper to the `android.util.Log` - ([commit](https://github.com/store_keeper/StoreApp/commit/1f9526e81b9233f4ba190b5c9ac68b9855e96186)).
+	* Pressing home/up button or back key on an unsaved New Config entry, displays the unsaved changes dialog - ([commit](https://github.com/store_keeper/StoreApp/commit/e0eef9383ce53f2bbb3628152c14068fbf369608)).
+	* Using Product Attributes copy for detecting any changes later in the Product configuration - ([commit](https://github.com/store_keeper/StoreApp/commit/3508b06cb7bc4b9ca44525f080a05fd4b55be0cb)).
+	* Null Pointer check when a Supplier Contact is deleted while another Supplier Contact is being validated and recorded - ([commit](https://github.com/store_keeper/StoreApp/commit/8ace8adfca5948df7dd225b4de4104bba1901fb4)).
+	* Passing 0 as the required quantity to procure when no quantity is provided while procuring by Email - ([commit](https://github.com/store_keeper/StoreApp/commit/a28a4085d1d541c8f1896297dde11e200455b0da)).
+	* Invalidating/reloading Item decorations when new data item is added/updated/removed in the Product/Supplier/Sales lists - ([commit](https://github.com/store_keeper/StoreApp/commit/47df67d1792dce0b552f832893dd77087effce4f)).
+	* Configured an Activity Alias to launch the `MainActivity` - ([commit](https://github.com/store_keeper/StoreApp/commit/e8f6bcd34a095c907f415a27d098dc03ec0f0500)).
 	* Other minor changes to prepare the app for local release.
 		
 ---

@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<!--
-3  ~ Copyright 2018 Kaushik N. Sanji
+3  ~ Created By Rajat Gupta And Harshita Joshi 
 4  ~
 5  ~ Licensed under the Apache License, Version 2.0 (the "License");
 6  ~ you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
 15  ~ limitations under the License.
 16-->
 17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-18    package="com.example.kaushiknsanji.storeapp"
+18    package="com.example.store_keeper.storeapp"
 19    android:versionCode="1"
 20    android:versionName="1.0" >
 21
@@ -49,8 +49,8 @@
 38
 39    <application
 39-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:34:5-130:19
-40        android:name="com.example.kaushiknsanji.storeapp.ui.StoreApplication"
-40-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:35:9-44
+40        android:name="com.example.store_keeper.store_keeper.ui.StoreApplication"
+40-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:35:9-81
 41        android:allowBackup="true"
 41-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:36:9-35
 42        android:debuggable="true"
@@ -62,152 +62,153 @@
 45-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:39:9-54
 46        android:supportsRtl="true"
 46-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:40:9-35
-47        android:theme="@style/AppTheme" >
-47-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:41:9-40
-48
-49        <!-- File Provider for the Images -->
-50        <provider
-51            android:name="android.support.v4.content.FileProvider"
-51-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:45:13-67
-52            android:authorities="com.example.kaushiknsanji.storeapp.fileprovider"
-52-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:46:13-64
-53            android:exported="false"
-53-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:47:13-37
-54            android:grantUriPermissions="true" >
-54-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:48:13-47
-55            <meta-data
-55-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:49:13-51:63
-56                android:name="android.support.FILE_PROVIDER_PATHS"
-56-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:50:17-67
-57                android:resource="@xml/file_provider_paths" />
-57-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:51:17-60
-58        </provider>
-59
-60        <!-- Content Provider for the Database in the App -->
-61        <provider
-61-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:55:9-58:40
-62            android:name="com.example.kaushiknsanji.storeapp.data.local.StoreContentProvider"
-62-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:56:13-60
-63            android:authorities="com.example.kaushiknsanji.storeapp.provider"
-63-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:57:13-78
-64            android:exported="false" />
-64-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:58:13-37
-65
-66        <!-- The Main Activity that displays all the Products, Suppliers and the Sales information -->
-67        <activity
-67-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:61:9-69:20
-68            android:name="com.example.kaushiknsanji.storeapp.ui.MainActivity"
-68-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:62:13-44
-69            android:theme="@style/AppTheme.Main" >
-69-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:63:13-49
-70            <intent-filter>
-70-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:64:13-68:29
-71                <action android:name="android.intent.action.MAIN" />
-71-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:65:17-69
-71-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:65:25-66
-72
-73                <category android:name="android.intent.category.LAUNCHER" />
-73-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:67:17-77
-73-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:67:27-74
-74            </intent-filter>
-75        </activity>
-76
-77        <!-- The Product Config Activity that allows to register a Product into the catalog -->
-78        <activity
-78-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:72:9-76:55
-79            android:name="com.example.kaushiknsanji.storeapp.ui.products.config.ProductConfigActivity"
-79-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:73:13-69
-80            android:label="@string/product_config_title_add_product"
-80-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:74:13-69
-81            android:theme="@style/AppTheme"
-81-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:75:13-44
-82            android:windowSoftInputMode="adjustPan" />
-82-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:76:13-52
-83
-84        <!-- The Product Image Activity that allows to save/manage the images of the Product -->
-85        <activity
-85-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:79:9-90:20
-86            android:name="com.example.kaushiknsanji.storeapp.ui.products.image.ProductImageActivity"
-86-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:80:13-67
-87            android:label="@string/product_image_title"
-87-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:81:13-56
-88            android:parentActivityName="com.example.kaushiknsanji.storeapp.ui.products.config.ProductConfigActivity"
-88-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:82:13-83
-89            android:theme="@style/AppTheme.ProductImage" >
-89-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:83:13-57
-90
-91            <!-- Parent activity meta-data to support 4.0 and lower -->
-92            <meta-data
-92-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:87:13-89:111
-93                android:name="android.support.PARENT_ACTIVITY"
-93-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:88:17-63
-94                android:value="com.example.kaushiknsanji.storeapp.ui.products.config.ProductConfigActivity" />
-94-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:89:17-108
-95        </activity>
-96
-97        <!-- The Supplier Config Activity that allows to configure a Supplier -->
-98        <activity
-98-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:93:9-97:55
-99            android:name="com.example.kaushiknsanji.storeapp.ui.suppliers.config.SupplierConfigActivity"
-99-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:94:13-71
-100            android:label="@string/supplier_config_title_add_supplier"
-100-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:95:13-71
-101            android:theme="@style/AppTheme"
-101-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:96:13-44
-102            android:windowSoftInputMode="adjustPan" />
-102-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:97:13-52
-103
-104        <!-- The Supplier Product Picker Activity that allows to search and pick the Products to be sold by the Supplier -->
-105        <activity
-105-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:100:9-104:55
-106            android:name="com.example.kaushiknsanji.storeapp.ui.suppliers.product.SupplierProductPickerActivity"
-106-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:101:13-79
-107            android:label="@string/supplier_product_picker_title"
-107-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:102:13-66
-108            android:theme="@style/AppTheme"
-108-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:103:13-44
-109            android:windowSoftInputMode="adjustPan" />
-109-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:104:13-52
-110
-111        <!-- The Sales Config Activity that allows to update the inventory of the Product across its Suppliers -->
-112        <activity
-112-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:107:9-111:55
-113            android:name="com.example.kaushiknsanji.storeapp.ui.inventory.config.SalesConfigActivity"
-113-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:108:13-68
-114            android:label="@string/sales_config_title_edit_sales"
-114-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:109:13-66
-115            android:theme="@style/AppTheme"
-115-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:110:13-44
-116            android:windowSoftInputMode="adjustPan" />
-116-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:111:13-52
-117
-118        <!-- The Sales Procurement Activity that allows to place product procurement request with the Supplier -->
-119        <activity
-119-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:114:9-118:55
-120            android:name="com.example.kaushiknsanji.storeapp.ui.inventory.procure.SalesProcurementActivity"
-120-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:115:13-74
-121            android:label="@string/sales_procurement_title"
-121-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:116:13-60
-122            android:theme="@style/AppTheme"
-122-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:117:13-44
-123            android:windowSoftInputMode="adjustPan" />
-123-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:118:13-52
-124
-125        <!-- The About Activity of the App -->
-126        <activity
-126-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:121:9-123:47
-127            android:name="com.example.kaushiknsanji.storeapp.ui.about.AboutActivity"
-127-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:122:13-51
-128            android:theme="@style/AppTheme" />
-128-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:123:13-44
-129
-130        <!-- Preloaded Fonts used in the App -->
-131        <meta-data
-131-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:126:9-128:57
-132            android:name="preloaded_fonts"
-132-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:127:13-43
-133            android:resource="@array/preloaded_fonts" />
-133-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:128:13-54
-134    </application>
-135
-136</manifest>
+47        android:testOnly="true"
+48        android:theme="@style/AppTheme" >
+48-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:41:9-40
+49
+50        <!-- File Provider for the Images -->
+51        <provider
+52            android:name="android.support.v4.content.FileProvider"
+52-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:45:13-67
+53            android:authorities="com.example.store_keeper.storeapp.fileprovider"
+53-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:46:13-64
+54            android:exported="false"
+54-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:47:13-37
+55            android:grantUriPermissions="true" >
+55-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:48:13-47
+56            <meta-data
+56-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:49:13-51:63
+57                android:name="android.support.FILE_PROVIDER_PATHS"
+57-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:50:17-67
+58                android:resource="@xml/file_provider_paths" />
+58-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:51:17-60
+59        </provider>
+60
+61        <!-- Content Provider for the Database in the App -->
+62        <provider
+62-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:55:9-58:40
+63            android:name="com.example.store_keeper.store_keeper.data.local.StoreContentProvider"
+63-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:56:13-97
+64            android:authorities="com.example.store_keeper.storeapp.provider"
+64-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:57:13-77
+65            android:exported="false" />
+65-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:58:13-37
+66
+67        <!-- The Main Activity that displays all the Products, Suppliers and the Sales information -->
+68        <activity
+68-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:61:9-69:20
+69            android:name="com.example.store_keeper.store_keeper.ui.MainActivity"
+69-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:62:13-81
+70            android:theme="@style/AppTheme.Main" >
+70-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:63:13-49
+71            <intent-filter>
+71-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:64:13-68:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:65:17-69
+72-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:65:25-66
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:67:17-77
+74-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:67:27-74
+75            </intent-filter>
+76        </activity>
+77
+78        <!-- The Product Config Activity that allows to register a Product into the catalog -->
+79        <activity
+79-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:72:9-76:55
+80            android:name="com.example.store_keeper.store_keeper.ui.products.config.ProductConfigActivity"
+80-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:73:13-106
+81            android:label="@string/product_config_title_add_product"
+81-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:74:13-69
+82            android:theme="@style/AppTheme"
+82-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:75:13-44
+83            android:windowSoftInputMode="adjustPan" />
+83-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:76:13-52
+84
+85        <!-- The Product Image Activity that allows to save/manage the images of the Product -->
+86        <activity
+86-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:79:9-90:20
+87            android:name="com.example.store_keeper.store_keeper.ui.products.image.ProductImageActivity"
+87-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:80:13-104
+88            android:label="@string/product_image_title"
+88-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:81:13-56
+89            android:parentActivityName="com.example.store_keeper.store_keeper.ui.products.config.ProductConfigActivity"
+89-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:82:13-120
+90            android:theme="@style/AppTheme.ProductImage" >
+90-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:83:13-57
+91
+92            <!-- Parent activity meta-data to support 4.0 and lower -->
+93            <meta-data
+93-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:87:13-89:147
+94                android:name="android.support.PARENT_ACTIVITY"
+94-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:88:17-63
+95                android:value="com.example.store_keeper.storeapp.com.example.store_keeper.storekeeper.ui.products.config.ProductConfigActivity" />
+95-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:89:17-144
+96        </activity>
+97
+98        <!-- The Supplier Config Activity that allows to configure a Supplier -->
+99        <activity
+99-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:93:9-97:55
+100            android:name="com.example.store_keeper.store_keeper.ui.suppliers.config.SupplierConfigActivity"
+100-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:94:13-108
+101            android:label="@string/supplier_config_title_add_supplier"
+101-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:95:13-71
+102            android:theme="@style/AppTheme"
+102-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:96:13-44
+103            android:windowSoftInputMode="adjustPan" />
+103-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:97:13-52
+104
+105        <!-- The Supplier Product Picker Activity that allows to search and pick the Products to be sold by the Supplier -->
+106        <activity
+106-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:100:9-104:55
+107            android:name="com.example.store_keeper.store_keeper.ui.suppliers.product.SupplierProductPickerActivity"
+107-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:101:13-116
+108            android:label="@string/supplier_product_picker_title"
+108-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:102:13-66
+109            android:theme="@style/AppTheme"
+109-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:103:13-44
+110            android:windowSoftInputMode="adjustPan" />
+110-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:104:13-52
+111
+112        <!-- The Sales Config Activity that allows to update the inventory of the Product across its Suppliers -->
+113        <activity
+113-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:107:9-111:55
+114            android:name="com.example.store_keeper.store_keeper.ui.inventory.config.SalesConfigActivity"
+114-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:108:13-105
+115            android:label="@string/sales_config_title_edit_sales"
+115-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:109:13-66
+116            android:theme="@style/AppTheme"
+116-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:110:13-44
+117            android:windowSoftInputMode="adjustPan" />
+117-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:111:13-52
+118
+119        <!-- The Sales Procurement Activity that allows to place product procurement request with the Supplier -->
+120        <activity
+120-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:114:9-118:55
+121            android:name="com.example.store_keeper.store_keeper.ui.inventory.procure.SalesProcurementActivity"
+121-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:115:13-111
+122            android:label="@string/sales_procurement_title"
+122-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:116:13-60
+123            android:theme="@style/AppTheme"
+123-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:117:13-44
+124            android:windowSoftInputMode="adjustPan" />
+124-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:118:13-52
+125
+126        <!-- The About Activity of the App -->
+127        <activity
+127-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:121:9-123:47
+128            android:name="com.example.store_keeper.store_keeper.ui.about.AboutActivity"
+128-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:122:13-88
+129            android:theme="@style/AppTheme" />
+129-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:123:13-44
+130
+131        <!-- Preloaded Fonts used in the App -->
+132        <meta-data
+132-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:126:9-128:57
+133            android:name="preloaded_fonts"
+133-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:127:13-43
+134            android:resource="@array/preloaded_fonts" />
+134-->C:\Users\rajat\Documents\GitHub\Store Keeper\app\src\main\AndroidManifest.xml:128:13-54
+135    </application>
+136
+137</manifest>

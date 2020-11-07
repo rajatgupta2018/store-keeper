@@ -1,4 +1,4 @@
-com.example.kaushiknsanji.storeapp
+com.example.store_keeper.storeapp
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom

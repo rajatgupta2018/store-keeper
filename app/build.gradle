@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 Kaushik N. Sanji
+ * Created by Harshita Joshi and Rajat Gupta 
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -26,7 +26,7 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "com.example.kaushiknsanji.storeapp"
+        applicationId "com.example.store_keeper.storeapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

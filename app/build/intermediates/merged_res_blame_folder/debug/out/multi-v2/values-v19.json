@@ -6,12 +6,12 @@
                 {
                     "source": "C:\\Users\\rajat\\Documents\\GitHub\\Store Keeper\\app\\src\\main\\res\\values-v19\\styles.xml",
                     "from": {
-                        "startLines": "19,28",
-                        "startColumns": "4,4",
-                        "startOffsets": "728,1190",
-                        "endLines": "25,30",
-                        "endColumns": "12,12",
-                        "endOffsets": "1129,1299"
+                        "startLines": "19,-1",
+                        "startColumns": "4,-1",
+                        "startOffsets": "739,-1",
+                        "endLines": "25,-1",
+                        "endColumns": "12,-1",
+                        "endOffsets": "1140,-1"
                     },
                     "to": {
                         "startLines": "2,9",

@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.kaushiknsanji.storeapp.ui.about.AboutActivity">
+    tools:context="com.example.store_keeper.storeapp.com.example.store_keeper.storekeeper.ui.about.AboutActivity">
 
     <!-- For the Custom Toolbar -->
     <android.support.design.widget.AppBarLayout

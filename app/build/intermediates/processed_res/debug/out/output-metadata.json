@@ -4,7 +4,7 @@
     "type": "PROCESSED_RES",
     "kind": "Directory"
   },
-  "applicationId": "com.example.kaushiknsanji.storeapp",
+  "applicationId": "com.example.store_keeper.storeapp",
   "variantName": "processDebugResources",
   "elements": [
     {

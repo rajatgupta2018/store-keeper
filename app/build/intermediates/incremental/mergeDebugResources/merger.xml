@@ -2082,7 +2082,7 @@
         Currently we have &lt;b><ns1:g example="100" id="quantity">%3$s</ns1:g>&lt;/b> quantity of the Product &lt;b>\"<ns1:g example="Product1" id="product_name">%4$s</ns1:g> (<ns1:g example="A11223445" id="item_sku">%5$s</ns1:g>)\"&lt;/b>. We are in need of &lt;b><ns1:g example="100" id="quantity">%6$s</ns1:g>&lt;/b> quantity to meet the demand. Please expedite the request at the earliest.&lt;br/>&lt;br/>
         Regards,&lt;br/>
         {Store Name and address}
-    </string><string name="about_title">About</string><string name="about_content_intro">App designed and developed by &lt;b>Kaushik N Sanji&lt;/b> as part of the project coursework done for the &lt;b>Android Basics Nanodegree&lt;/b> course offered by &lt;b>Udacity&lt;/b>.</string><string name="about_content_desc">
+    </string><string name="about_title">About</string><string name="about_content_intro">App designed and developed by &lt;b>Rajat Gupta And Harshita Joshi &lt;/b> as part of the project coursework done for the &lt;b>Android Basics Nanodegree&lt;/b> course offered by &lt;b>Udacity&lt;/b>.</string><string name="about_content_desc">
         App is structured as an Inventory Management App that allows a Store to keep track of its product inventory and record sales. 
         It allows to store every information of a Product along with its pictures and Suppliers information with their price and available-to-sell quantity. 
         It also features Product procurement from Suppliers via the supplied Contact information of Suppliers recorded.
